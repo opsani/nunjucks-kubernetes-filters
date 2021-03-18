@@ -1,0 +1,25 @@
+{
+  "name": "@opsani/nunjucks-kubernetes-filters",
+  "version": "0.5.0",
+  "description": "Nunjucks filters for transforming strings into Kubernetes resource values.",
+  "main": "filters.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opsani/nunjucks-kubernetes-filters.git"
+  },
+  "author": "Blake Watters <blake@opsani.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/opsani/nunjucks-kubernetes-filters/issues"
+  },
+  "homepage": "https://github.com/opsani/nunjucks-kubernetes-filters#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.3"
+  }
+}
