@@ -1,6 +1,6 @@
 {
   "name": "@opsani/nunjucks-kubernetes-filters",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Nunjucks filters for transforming strings into Kubernetes resource values.",
   "main": "filters.js",
   "scripts": {
