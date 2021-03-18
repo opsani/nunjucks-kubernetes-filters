@@ -13,7 +13,7 @@ filters that will transform arbitrary input strings into valid names within your
 
 ## Installation
 
-`npm install nunjucks-kubernetes-filters`
+`npm install @opsani/nunjucks-kubernetes-filters`
 
 Once installed, proceed to [Usage](#Usage).
 
@@ -37,7 +37,8 @@ In addition to the filters, the package exports some ancillary support functions
 The following code creates a Nunjucks environment and adds the filters using the same names as the exported functions.
 
 ```js
-require('nunjucks-kubernetes-filters');
+require('@opsani/nunjucks-kubernetes-filters');
+
 let nunjucksEnv = new nunjucks.Environment(
     new nunjucks.FileSystemLoader('templates'),
     { throwOnUndefined: true }
